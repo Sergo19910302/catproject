@@ -8,32 +8,11 @@
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 </head>
 <body>
-	<!-- header -->
-	<!-- <div class="header">
-		<div class="content">
-			<div class="logo">
-				<h1>
-					<i style="transform: rotate(-20deg)" class="fa fa-paw"></i>
-					<a href="index.html"> Meow</a>
-				</h1>
-			</div>
-			
-			<div class="navigation">
-				<ul>
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Prices</a></li>
-					<li><a href="#">Login</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</div> -->
-
 	<header>
         <nav>
             <div class="container">
@@ -71,20 +50,21 @@
     
                     <div class="col-6 col-md-3">
                         <a href="tel:84957970988" class="xs-visible subheader_phone">8 495 797 09 88</a>
-                        <button class="subheader_btn">Request</button>
+                        <button data-modal="consultation" class="subheader_btn">Request</button>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+	
 	<section class="promo">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1">
-                    <button class="promo_btn">Click on Video</button>
-                </div>
-            </div>
-        </div>
+			<div class="row">
+			<div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1">
+				<button class="promo_btn"><a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">Watch Video</a><br></button>
+			</div>
+		</div>
+		</div>
     </section>	
 	<h2 class="content-title">meet the team</h2>
 	<div class="content">
@@ -268,55 +248,8 @@
 		</div>
 	</div>
 </section>
-<!-- <section class="contacts">
-	<div class="container">
-		<div class="contacts__wrapper">
-			<div class="contacts__photo">
-				<img src="img/cat.jpg" alt="photo">
-			</div>
-			<div class="contacts__descr">
-				<h2 class="title title_fz16 contacts__title">Contact Us</h2>
-				<div class="divider"></div>
-				<div class="contacts__social">
-					<a href="#" class="contacts__link">
-						<img src="icons/facebook.svg" alt="facebook">
-					</a>
-					<a href="#" class="contacts__link">
-						<img src="icons/github.svg" alt="github">
-					</a>
-					<a href="#" class="contacts__link">
-						<img src="icons/linkedin.svg" alt="linkedin">
-					</a>
-				</div>
 
-				<form action="#" class="contacts__form">
-					<div class="contacts__input">
-						<input required name="name" id="name" type="text">
-						<label for="name">Your name</label>
-					</div>
-					<div class="contacts__input">
-						<input required name="email" id="email" type="email">
-						<label for="email">Your mail</label>
-					</div>
 
-					<div class="contacts__textarea">
-						<textarea name="text" id="text"></textarea>
-						<label for="text">Your message</label>
-					</div>
-					<div class="contacts__triggers">
-						<button class="contacts__btn btn">Send a message</button>
-						<div class="contacts__policy">
-							<input required type="checkbox">
-							<span>I agree with the <a href="policy.html">privacy policy</a></span>
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
-</section>
-  -->
-	
 	<footer>
         <div class="footer_divider"></div>
         <div class="footer_wrapper">
@@ -341,7 +274,7 @@
                 <div class="footer_links">
                     <div class="footer_links_main">
                         <a href="#">main</a>
-                        <a href="#">cities</a>
+                        <a href="cities.html">cities</a>
                         <a href="#">for drivers</a>
                     </div>
                     <div class="footer_links_sub">
@@ -369,7 +302,10 @@
             </div>
         </div>
     </footer>
-	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<!-- Magnific Popup core JS file -->
+	<script src="magnific-popup/jquery.magnific-popup.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>
