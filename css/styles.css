@@ -409,10 +409,11 @@ button:hover {
 	}
 
 	.contacts__photo img {
-	  width: 100%;
+	  width: 90%;
 	  height: 100%;
 	  -o-object-fit: cover;
 		 object-fit: cover; 
+		 border-radius: 85px;
 	}
 
 	.contacts__descr {
@@ -438,7 +439,8 @@ button:hover {
 
 	  .contacts__link img {
 		max-width: 30px;
-		max-height: 30px; 
+		max-height: 30px;
+		
 	}
 
 	  .contacts__link:hover {
@@ -527,8 +529,8 @@ button:hover {
 		  font-size: 14px;
 		  line-height: 21px; }
 		.title_fz16 {
-		  font-size: 16px;
-		  line-height: 24px; }
+		  font-size: 50px;
+		  line-height: 2px; }
 		.title_fz20 {
 		  font-size: 20px;
 		  line-height: 30px; }
@@ -548,8 +550,9 @@ button:hover {
 			width: 36px;
 			height: 36px;
 			border-radius: 100%;
-			background: #ffa501; }
+			background: #312f2c; }
 		  .title__section-title:before {
+			
 			top: -6px;
 			left: 50%;
 			-webkit-transform: translateX(-50%);
@@ -557,3 +560,5 @@ button:hover {
 		.title__section-subtitle {
 		  text-align: center; }
 
+		  /* About */
+		 
