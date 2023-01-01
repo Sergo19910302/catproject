@@ -356,6 +356,7 @@ button:hover {
     margin-top: 38px;
     color: #222222;
     font-size: 38px;
+	line-height: 70px;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
@@ -558,7 +559,8 @@ button:hover {
 			-webkit-transform: translateX(-50%);
 					transform: translateX(-50%); }
 		.title__section-subtitle {
-		  text-align: center; }
+		  text-align: center; 
+		padding-top: 25xpx;}
 
-		  /* About */
+	
 		 
